@@ -4,9 +4,9 @@
     "slug": "HealthFitApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/my_icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/my_splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,12 +21,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/my_icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.arb.healthfitapp",
+      "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/my_favicon.png"
     }
   }
 }
